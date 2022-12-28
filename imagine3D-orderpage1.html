@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+    <Head>
+        <title>Imagine3DPrinting</title>
+        <link rel="stylesheet" href="imagine3D-style.css">
+    </Head>
+    <Body>
+        <div class="background">     
+            <div class="menuContainer">
+                <div class = "logoBox">
+                    <img src="images/Logo.png">
+                </div>
+                <div class="linkBox"> 
+                    <a href="#">About us</a>
+                    <a href="#">Home</a>
+                    <a href="#">Examples</a>
+                    <a class="cart" href="#">Cart</a>
+                </div>
+            </div>
+            <div class="mainBox">
+                <form  class= "mainBox"onsubmit="takevalue()">
+                <div class="ContentContainer">
+                    <div class="headingContainer">
+                        <img class="icons" src="images/Settings.png" alt="">
+                        <h2>Settings</h2>
+                    </div>
+                        <div class="settingsDetailsContainer">
+                            <img  class="orderImage" src="images/2.Soldier.jpeg" alt="">
+                            <div class="inputHeadGreen" >
+                                <label for="">File</label>
+                            </div>
+                            <div class = "InputField" >
+                                <p class = "EmptyInput">Filename.stl</p>
+                            </div>
+                            
+                                <div class = "selectorContainer">
+                                    <label class = "selectorHead" for="">Colour</label>
+                                    <select class = "selectorbody" id = "colour">
+                                        <option value="Black">Black</option>
+                                        <option value="White">White</option>
+                                        <option value="Grey">Grey</option>
+                                    </select>
+                                </div>
+                                <div class = "selectorContainer">
+                                    <label class = "selectorHead" for="">Size</label>
+                                    <select class = "selectorbody" id= "size">
+                                        <option value="Small">Small(10cm)</option>
+                                        <option value="Medium">Medium(15cm)</option>
+                                        <option value="Large">Large(20cm)</option>
+                                    </select>
+                                </div>
+                                <div class="inputHeadGreen" >
+                                    <label for="">Amount</label>
+                                </div>
+                                <div class="inputDiv">
+                                    <input class = "InputField" type="number" id="amount" placeholder="1">
+                                </div>
+                            
+                        </div>
+                        
+                    
+                </div>
+                <div class="ContentContainer">
+                    <div class="headingContainer">
+                        <img class="icons" src="images/personal.png" alt="">
+                        <h2>Personal Details</h2>
+                    </div>
+                        <div class="settingsDetailsContainer">
+                            
+                            <div class="inputHeadGreen" >
+                                <label for="name">First Name</label>
+                            </div>
+                            <div class="inputDiv">
+                                <input class = "InputField" type="text"  id="firstName" placeholder="Please enter your name">
+                            </div>
+                            <div class="inputHeadGreen" >
+                                <label for="">Last Name</label>
+                            </div>
+                            <div class="inputDiv">
+                                <input class = "InputField" type="text"  id="lastName" placeholder="Please enter your last name">
+                            </div>
+                            <div class="inputHeadGreen" >
+                                <label for="">email</label>
+                            </div>
+                            <div class="inputDiv">
+                                <input class = "InputField" type="email"  id="email" placeholder="Please enter your email">
+                            </div>
+                            <div class="inputHeadGreen" >
+                                <label for="">Phone number</label>
+                            </div>
+                            <div class="inputDiv">
+                                <input class = "InputField" type="tel" id="phoneNumber" placeholder="Please enter your phone number">
+                            </div>
+                            
+                           
+                            
+                        </div>
+                </div>
+                <div class="ContentContainer">
+                    <div class="headingContainer">
+                        <img class="icons" src="images/delivery.png" alt="">
+                        <h2>Delivery Details</h2>
+                    </div>
+                        <div class="settingsDetailsContainer">
+                            
+                            <div class="inputHeadGreen" >
+                                <label for="">Street adress & Number</label>
+                            </div>
+                            <div class="inputDiv">
+                                <input class = "InputField" type="text"  id="streetAdress" placeholder="Please enter street adress">
+                            </div>
+                            <div class="inputHeadGreen" >
+                                <label for="">Town/City</label>
+                            </div>
+                            <div class="inputDiv">
+                                <input class = "InputField" type="text" id="town/City" placeholder="Please enter your town">
+                            </div>
+                            <div class="inputHeadGreen" >
+                                <label for="">Province</label>
+                            </div>
+                            <div class="inputDiv">
+                                <input class = "InputField" type="text"  id="province" placeholder="Please enter your province">
+                            </div>
+                            <div class="inputHeadGreen" >
+                                <label for="">Postal code</label>
+                            </div>
+                            <div class="inputDiv">
+                                <input class = "InputField" type="tel" id="postalCode" placeholder="Please enter your postal code">
+                            </div>
+                            
+                            
+                        </div>
+                        <div class="orderButtonContainer">
+                                <input type="submit" value="Submit"name="" id="" class="orderBtn"> 
+                        </div >
+                        
+                        
+                </div>
+                </form>
+            </div>
+        </div>
+        <Script src="imagine3D.js">
+        </Script>
+    </Body>
+</html>

@@ -1,0 +1,310 @@
+*
+{
+        margin: 0;
+        padding: 0;
+        font-family: Bahnschrift;
+        
+}
+.background
+{
+    width: 100%;
+    height: 80vh;
+    display: grid;
+    background-color: transparent;
+    
+}
+.menuContainer
+{
+    display: flex;
+    margin-top: 0;
+    height: 100px;
+    width: 100%;
+    background: linear-gradient(to left,rgb(225, 0, 122),rgb(129, 0, 132));
+    align-items: center;
+    justify-content:space-between;
+    padding: 0px;
+    box-shadow:0 5px 10px rgb(94, 94, 94);
+    margin-bottom: 0px;
+}
+.logoBox
+{   
+    height: 82px;
+    width: 210px;
+    background: rgb(255, 255, 255);
+    display: flex;
+    align-items: center;
+    border-radius: 10px;
+    margin-left: 8px;
+}
+.logoBox img
+{   margin: auto;
+    height: 100%;
+}
+.linkBox
+{  
+    padding: 0;
+   display: flex;
+   margin-right: 8px;
+   gap: 15px;
+}
+.linkBox a{
+    color: white;
+    text-decoration-line: none;
+}
+
+.headingContainer
+{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+
+    height: 68px;
+    width: 350px;
+    background: linear-gradient(to left,rgb(225, 0, 122),rgb(129, 0, 132));
+    box-shadow:0 5px 10px rgb(94, 94, 94);
+}
+.ContentContainer
+{
+    height: fit-content;
+    width: 350px;
+    background: rgba(255, 255, 255, 0.486);
+    border-bottom-left-radius:  10px;
+    border-bottom-right-radius:  10px;
+    margin: auto;
+    justify-content:center;
+    align-items: center;
+    margin-top: 22px;
+    box-shadow:0 5px 10px rgb(94, 94, 94);
+    display: grid;
+    gap: 0px;
+    grid-template-columns: repeat(auto-fit,minmax(auto-fit,1fr));
+
+    
+}
+
+.settingsDetailsContainer
+{
+    height: 100%; 
+    width: 100%;
+    background: transparent;
+    justify-content: center;
+    margin-top: 0px;
+    
+    
+}
+.picker
+{
+    display: inline;
+}
+.selectorForm
+{
+    text-align: left;
+    display: inline;
+    font-size: 20px;
+    
+}
+.selectorHead
+{
+    background: linear-gradient(to left,rgb(0, 175, 70),rgb(2, 77, 77));
+    width: 100%;
+}
+.selectorContainer
+{
+    width: 100%;
+    background: transparent;
+    font-size: 25px;
+    display: grid;
+    width: auto;
+    gap:0px;
+    color: white;
+    text-align: center;
+}
+.selectorbody
+{
+    width: 100%;
+    height: 30px;
+    border-radius: 0px;
+    border: 0px;
+    outline: 0px;
+    text-align: center;
+}
+.orderButtonContainer
+{
+    
+    width: 100%;
+    background: transparent;
+    margin-top: 0px;
+    display: flex;
+    justify-content: center;
+}
+.orderBtn{
+    height: 44px;
+    width: 350PX;
+    border-style: none;
+    margin: auto;
+    box-shadow: 0 5px 10px rgb(94, 94, 94);
+    font-size: 30px;
+    font-family: Bahnschrift;
+    background: black;
+    border-radius: 0px;
+    color: white;
+    margin-top: 0px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+.orderBtn:hover
+{
+    scale: 110%;
+    box-shadow: 0 5px 10px rgb(49, 49, 49); 
+    border-radius: 10px;
+}
+h2{
+    text-align: center;
+    padding: 13px;
+    color: white;
+    font-size: 32px;
+    
+}
+.imagesbox
+{
+    height: 350px;
+    width: 350px;
+    background: transparent;
+    justify-content: center;
+    align-items: center;
+    background: transparent;
+   
+}
+.imagesbox img
+{
+    width: auto;
+    height: 103px;
+    position: relative;
+    border-radius: 10px;
+    margin: 5px;
+    cursor: pointer;
+    box-shadow:0 5px 10px rgb(94, 94, 94);
+    opacity: 0.9; 
+   
+}
+.imagesbox img:hover
+{
+    scale: 120%;
+    opacity: 1;
+    
+}
+.bigimagebox
+{
+    
+    width: 350px;
+    background: transparent;
+    padding: 0;
+    margin:0; 
+  
+}
+.bigimagebox img
+{
+    
+    height: 350px;
+    border-radius: 10px;
+    transition: 0.3s;
+}
+.scrollButtonContainer
+{
+    height: 50px;
+    width: 200px;
+    background: transparent;
+    margin: auto;
+    display: flex;
+    padding: 11px;
+    justify-content: center;
+    align-items: center;
+    gap:  0px;
+}
+.scrollBtn
+{
+    height: 44px;
+    width: 88px;
+    border-style: none;
+    margin: auto;
+    box-shadow: 0 5px 10px rgb(94, 94, 94);
+    font-size: 30px;
+    font-family: Bahnschrift;
+    background: linear-gradient(to left,rgb(225, 0, 122),rgb(129, 0, 132));
+    border-radius: 47px;
+    color: white;
+    
+}
+.scrollBtn:hover
+{
+    scale: 120%;
+    box-shadow: 0 5px 10px rgb(49, 49, 49); 
+}
+.mainBox
+{
+    
+    display: grid;
+    gap: 0px;
+    grid-template-columns: repeat(auto-fit,minmax(360px,1fr));
+    
+}
+.orderimagesbox
+{
+    background: transparent;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+}
+.orderimagesbox img
+{
+    height: 150px;
+    border-radius: 10px;
+    box-shadow: 0 5px 10px rgb(49, 49, 49); 
+}
+.inputHeadGreen
+{
+    background: linear-gradient(to left,rgb(0, 175, 70),rgb(2, 77, 77));
+    width: 100%;
+    text-align: center;
+    color: white;
+    font-size: 25px;
+    margin: auto;
+    
+    
+}
+.InputField
+{
+    width: 100%;
+    height: 30px;
+    border-radius: 0px;
+    border: 0px;
+    outline: 0px;
+    text-align: center;
+}
+.inputDiv
+{
+    background: transparent;
+    text-align: center;
+}
+.EmptyInput
+{
+    margin: 8px;
+    
+}
+.icons
+{
+    height: 40px;
+    
+   
+}
+.orderImage
+{
+    display: flex;
+    margin: auto;
+    height: 150px;
+    border-radius: 10px;
+    box-shadow: 0 5px 10px rgb(49, 49, 49); ;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
