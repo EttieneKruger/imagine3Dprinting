@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Imagine3D Check-out</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body id="body">
+
+<!--//////////////////MENU//////////////////-->
+
+        <div id="menu" class="underline">
+            <div id="logo">
+                <img src="Design Images/Logo/Logo.png">
+            </div>
+            
+            <div id="links">
+                <a href="#" class="linksa">About us</a>
+                <a href="index.html" class="linksa">Home</a>
+                <a href="#" class="linksa">Browse</a>
+                <a href="#" id="currentpage">Cart</a>
+            </div>
+        </div>
+
+<!--//////////////////Form//////////////////-->
+
+        <div id="formcontentcontainer">
+            <div id="formtext">
+                    <h1 class="underline">We are ready to start your print in 3 short steps</h1>
+                    <form action="">
+                        <!--//////////////////Print settings//////////////////-->
+                        <div class = "inputcat">
+                            <h2 class="cattitle">1. Print settings</h2>
+                            <label for="" class="subcat">1.1 File:</label>
+                            <div class="inputfieldfile">
+                                <input type="file" id="file">
+                            </div>
+                            <label for="" class="subcat">1.2 Colour:</label>
+                            <select class = "inputfield" id = "colour">
+                                <option value="Black">Black</option>
+                                <option value="White">White</option>
+                                <option value="Grey">Grey</option>
+                            </select>
+                            <label for="" class="subcat">1.3 Size:</label>
+                            <select class = "inputfield" id = "colour">
+                                <option value="Small">Small(10cm)</option>
+                                <option value="Medium">Medium(15cm)</option>
+                                <option value="Large">Large(20cm)</option>
+                            </select>
+                            <label for="" class="subcat">1.4 Quantity:</label>
+                            <input class = "inputfield" type="number" id="amount" placeholder="1">
+                        </div>
+                        <!--//////////////////Personal details//////////////////-->
+                        <div class = "inputcat">
+                            <h2 class="cattitle">2. Personal details</h2>
+                            <label for="" class="subcat">2.1 First name:</label>
+                            <input type="text" class="inputfield">
+                            <label for="" class="subcat">2.2 Last name:</label>
+                            <input type="text" class="inputfield">
+                            <label for="" class="subcat">2.3 email:</label>
+                            <input type="email" class="inputfield">
+                            <label for="" class="subcat">2.4 Phone number:</label>
+                            <input type="tel" class="inputfield">
+                        </div>
+                        <!--//////////////////Delivery details//////////////////-->
+                        <div class = "inputcat">
+                            <h2 class="cattitle">3. Delivery details</h2>
+                            <label for="" class="subcat">3.1 Street adress:</label>
+                            <input type="text" class="inputfield">
+                            <label for="" class="subcat">3.2 Town/City:</label>
+                            <input type="text" class="inputfield">
+                            <label for="" class="subcat">3.3 Province:</label>
+                            <input type="email" class="inputfield">
+                            <label for="" class="subcat">3.4 Postal code:</label>
+                            <input type="tel" class="inputfield">
+                        </div>
+                        <h1 class="underline">Quote will be emailed to you in 2-4 business days</h1>
+                        <div id="confirmorder" class="btn">
+                            <a href="index.html" id="cnfrmtxt">Confirm order</a>
+                        </div>
+                    </form>
+            </div>  
+        </div>
+
+<!--//////////////////Bottom Info//////////////////-->
+
+        <div id="bottommenu">
+            <div id="info">
+                <h2>Emial: imagine3dprinting.co.za</h2>
+                <h2>Cape Town, South Africa</h2>
+                <h2>Thank you for your support!</h2>
+            </div>
+            <div id="btmlinks">
+                <a href="#">About us</a>
+                <a href="#">Home</a>
+                <a href="#">Browse</a>
+                <a href="#">Cart</a>
+            </div>
+            <div id="btmlogo">
+                <img src="Design Images/Logo/Logo.png">
+            </div>
+        </div>
+        <script src="index.js"></script>
+    </body>
+</html>
