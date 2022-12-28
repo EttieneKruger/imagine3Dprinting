@@ -4,7 +4,7 @@
     font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
 }
 #body{
-    background-image: url("Design Images/Backgrounds/Backround 2.png");
+    background-image: url("Design Images/Backgrounds/DALL·E\ 2022-12-28\ 18.50.05\ -\ a\ detailed\ background\ image\ for\ my\ 3D\ printing\ service\ website\ background\ using\ geometric\ patterns\ with\ a\ linear\ gradient\ from\ deep\ red-orange\ to\ ligh.png");
     background-repeat: no-repeat;
     background-size:cover;
     height: 100%;
@@ -60,6 +60,7 @@
     justify-content:space-around;
     align-items: center;
     text-align: center;
+    
 }
 #btmlinks{
     width: 55vh;
@@ -72,18 +73,18 @@
     padding-top: 2vh;
 }
 #btmlinks a{
-    font-size: 2.5vh;
+    font-size: 2vh;
     color: #000000;
     text-decoration-line: none;
    
 }
 .linksa{
-    font-size: 3.5vh;
+    font-size: 2.5vh;
     color: #000000;
     text-decoration-line: none;
 }
 #currentpage{
-    font-size: 3.5vh;
+    font-size: 2.5vh;
     text-decoration-line: none;
     color:transparent;
     background-image: linear-gradient(rgba(251, 175, 64),rgba(242, 87, 56));
@@ -99,7 +100,7 @@
     display: flex;
     flex-wrap:wrap;
     justify-content: space-evenly;
-    box-shadow: 0px 5px 10px #7c7c7c;
+    box-shadow: 0px 5px 10px  #3d3d3d98;
 }
 
 h1{
@@ -146,6 +147,8 @@ p{
 #browsebtn{
     position: absolute;
     background-color: white;
+    text-align: center;
+
 }
 #uploadbtn{
     background-color: black;
@@ -157,7 +160,7 @@ p{
     width: 40vh;
     color: #000000;
     font-size: 3vh;
-    box-shadow: 0px 5px 10px #7c7c7c;
+    box-shadow: 0px 5px 10px #3d3d3d98;
     cursor: pointer;
     border-radius: 0px;
     border: 0px;
@@ -172,7 +175,8 @@ p{
 }
 #info h2{
     font-size: 2vh;
-    text-align: justify;
+    text-align: center;
+    font-weight: 100;
 }
 
 /*//////////Form//////////*/
@@ -185,7 +189,7 @@ p{
     display: flex;
     flex-wrap:wrap;
     justify-content: space-evenly;
-    box-shadow: 0px 5px 10px #7c7c7c;
+    box-shadow: 0px 5px 10px  #3d3d3d98;
 }
 .inputcat{
     height: auto;
@@ -273,8 +277,8 @@ p{
 
 }
 .eximg{
-    height: 38vh;
-    width: 38vh;
+    height: 38.2vh;
+    width: 38.2vh;
     outline: 1vh solid black;
     border-bottom-right-radius: 5px;
     border-bottom-left-radius: 5px;
@@ -289,7 +293,7 @@ p{
     display: grid;
     flex-wrap:wrap;
     justify-content: space-evenly;
-    box-shadow: 0px 5px 10px #7c7c7c;
+    box-shadow: 0px 5px 10px  #3d3d3d98;
     text-align: center;
     border-bottom-right-radius: 20px;
     border-bottom-left-radius: 20px;
